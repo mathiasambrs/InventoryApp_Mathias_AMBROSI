@@ -24,7 +24,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.inventory.databinding.ItemListFragmentBinding
-
+//Mathias AMBROSI
 /**
  * Main fragment displaying details for all items in the database.
  */
