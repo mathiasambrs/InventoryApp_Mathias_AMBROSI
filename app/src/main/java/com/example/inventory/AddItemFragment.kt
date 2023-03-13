@@ -74,6 +74,12 @@ class AddItemFragment : Fragment() {
             findNavController().navigate(action)
         }
     }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.saveAction.setOnClickListener {
+            addNewItem()
+        }
+    }
     /**
      * Called before fragment is destroyed.
      */
